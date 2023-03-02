@@ -1,0 +1,77 @@
+
+<view class="body">
+
+  <view class="head">head</view>
+
+  <view class="list-wrap">
+    <scroll-view scroll-y="true" class="list">
+      <view  class="list-scroll-view">
+        <view class="modle-mini">
+          <view>
+            <image src="../img/yiren.jpeg" mode="widthFix"></image>
+          </view>
+          <view>ceceececececececececececececccccccccccccceeeeeeee</view>
+          <view >shishishishishiss</view>
+        </view>
+
+        <view class="modle-mini">
+          <view>
+            <image src="../img/yiren.jpeg" mode="widthFix"></image>
+          </view>
+          <view>ceceececececececececececececccccccccccccceeeeeeee</view>
+          <view >shishishishishiss</view>
+        </view>
+
+        <view class="modle-mini">
+          <view>
+            <image src="../img/yiren.jpeg" mode="widthFix"></image>
+          </view>
+          <view>ceceececececececececececececccccccccccccceeeeeeee</view>
+          <view >shishishishishiss</view>
+        </view>
+
+
+        <view class="modle-mini">
+          <view>
+            <image src="../img/yiren.jpeg" mode="widthFix"></image>
+          </view>
+          <view>ceceececececececececececececccccccccccccceeeeeeee</view>
+          <view >shishishishishiss</view>
+        </view>
+
+        <view class="modle-mini">
+          <view>
+            <image src="../img/yiren.jpeg" mode="widthFix"></image>
+          </view>
+          <view>ceceececececececececececececccccccccccccceeeeeeee</view>
+          <view >shishishishishiss</view>
+        </view>
+
+
+        <view class="modle-mini">
+          <view>
+            <image src="../img/yiren.jpeg" mode="widthFix"></image>
+          </view>
+          <view>ceceececececececececececececccccccccccccceeeeeeee</view>
+          <view >shishishishishiss</view>
+        </view>
+
+        <view class="modle-mini">
+          <view>
+            <image src="../img/yiren.jpeg" mode="widthFix"></image>
+          </view>
+          <view>ceceececececececececececececccccccccccccceeeeeeee</view>
+          <view >shishishishishiss</view>
+        </view>
+      </view>
+   
+    </scroll-view>
+  
+    
+  </view>
+
+  <view class="down">
+    down
+  </view>
+
+</view>
