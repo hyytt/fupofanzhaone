@@ -1,31 +1,45 @@
 <view class="body">
 
-<view class="head">head</view>
+  <view class="head">head</view>
 
   <view class="list-wrap">
     <scroll-view scroll-y="true" class="list">
       <view class="list-scroll-view">
-      <view class="view-for-item" wx:for="{{persons}}"> 
-        <view class="view-item">
-       <view class="text-name">
-          <text class="text-item">姓名: {{item.name}}</text>
-          <image class="text-photo" src="{{item.photo}}"></image>
+        <view class="view-for-item" wx:for="{{persons}}">
+          <view class="view-item">
+            <view class="text-photo">
+              <image class="text-photo" src="{{item.photo}}"></image>
+            </view>
+            <view class="text-info">
+              <text class="text-infof">{{item.name}}</text>
+              <text class="text-infof">{{item.age}} 岁</text>
+              <text class="text-infof">{{item.birth}}</text>
+              <text class="text-infof">{{item.nativePlace}}</text>
+            </view>
+            <view class="text-work">
+            <view class="text-work-like">
+              <text class="text-infof">2</text>
+              <text class="text-infof">好评</text>
+              <image class="text-photo-like" src="../img/like.png" bindtap="register"></image>
+            </view>
+         
+            <view class="text-work-unlike">
+              <text class="text-infof">3</text>
+              <text class="text-infof">差评</text>
+              <image class="text-photo-like" src="../img/unlike.png" bindtap="register"></image>
+            </view>
+            
+            </view>
+            <!-- <text class="text-3line">工作情况: {{item.workProperty}}</text> -->
+
+          </view>
+
         </view>
-        <view>
-          <text class="text-2line">出生年月: {{item.birth}}</text>
-          <text class="text-2line">年龄: {{item.age}}</text>
-          <text class="text-2line">籍贯: {{item.nativePlace}}</text>
-        </view>
-          <text class="text-3line">工作情况: {{item.workProperty}}</text>
-      
-      </view>
-      
-      </view>
       </view>
     </scroll-view>
   </view>
-<view class="down">
-  down
-</view>
+  <view class="down">
+    down
+  </view>
 
 </view>

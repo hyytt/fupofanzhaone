@@ -28,18 +28,45 @@ height: 100vh;
 
   }
   .view-item{
-    padding-left: 3%;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding-left: 1%;
     padding-right: 3%;
     padding-top: 3%;
-    padding-bottom: 10%;
+    padding-bottom: 3%;
+    border: solid ;
   }
-  .text-name{
-  display: flex;
-  flex-direction:row;
-  justify-content:space-between;
-  }
+
   .text-photo{
     width: 80px;
     height: 130px;
     border-radius: 5%;
+  }
+  .text-info{
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+  }
+  .text-work{
+    width:60%;
+    display: flex;
+    justify-content:flex-end;
+  }
+
+  .text-work-like{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    width:30%;
+  }
+  .text-work-unlike{
+    width:30%;
+    display: flex;
+    flex-direction:column;
+    justify-content:center
+  }
+  .text-photo-like{
+    width: 20%;
+    height: 20%;
   }

@@ -1,73 +1,17 @@
-
 <view class="body">
 
-  <view class="head">head</view>
+  <view class="head">
+    <image src="../img/yiren.jpeg"  ></image>
+  </view>
 
   <view class="list-wrap">
-    <scroll-view scroll-y="true" class="list">
-      <view  class="list-scroll-view">
+    <scroll-view scroll-y="true" class="scroll-view">
+      <view class="list-view" wx:for="{{info}}">
         <view class="modle-mini">
-          <view>
-            <image src="../img/yiren.jpeg" mode="widthFix"></image>
-          </view>
-          <view>ceceececececececececececececccccccccccccceeeeeeee</view>
-          <view >shishishishishiss</view>
+          <view>{{item.workProperty}}</view>
         </view>
-
-        <view class="modle-mini">
-          <view>
-            <image src="../img/yiren.jpeg" mode="widthFix"></image>
-          </view>
-          <view>ceceececececececececececececccccccccccccceeeeeeee</view>
-          <view >shishishishishiss</view>
         </view>
-
-        <view class="modle-mini">
-          <view>
-            <image src="../img/yiren.jpeg" mode="widthFix"></image>
-          </view>
-          <view>ceceececececececececececececccccccccccccceeeeeeee</view>
-          <view >shishishishishiss</view>
-        </view>
-
-
-        <view class="modle-mini">
-          <view>
-            <image src="../img/yiren.jpeg" mode="widthFix"></image>
-          </view>
-          <view>ceceececececececececececececccccccccccccceeeeeeee</view>
-          <view >shishishishishiss</view>
-        </view>
-
-        <view class="modle-mini">
-          <view>
-            <image src="../img/yiren.jpeg" mode="widthFix"></image>
-          </view>
-          <view>ceceececececececececececececccccccccccccceeeeeeee</view>
-          <view >shishishishishiss</view>
-        </view>
-
-
-        <view class="modle-mini">
-          <view>
-            <image src="../img/yiren.jpeg" mode="widthFix"></image>
-          </view>
-          <view>ceceececececececececececececccccccccccccceeeeeeee</view>
-          <view >shishishishishiss</view>
-        </view>
-
-        <view class="modle-mini">
-          <view>
-            <image src="../img/yiren.jpeg" mode="widthFix"></image>
-          </view>
-          <view>ceceececececececececececececccccccccccccceeeeeeee</view>
-          <view >shishishishishiss</view>
-        </view>
-      </view>
-   
     </scroll-view>
-  
-    
   </view>
 
   <view class="down">
