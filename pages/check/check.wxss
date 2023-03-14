@@ -1,11 +1,12 @@
 .body{
 display: flex;
 flex-direction:column;
-height: 100vh; 
+height: 100vh;  
 }
 .head 
 {
-  background-color: darkgray;}
+  /* background-color: darkgray; */
+}
 
 .list-wrap{
   flex-wrap:wrap; 

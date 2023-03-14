@@ -1,0 +1,42 @@
+<view class="body">
+
+  <view class="head">
+    <image src=""></image>
+    <view class="text-info">
+      <text class="text-infof">陈某某</text>
+      <text class="text-infof">43 岁</text>
+      <text class="text-infof">1978.8</text>
+      <text class="text-infof">四川江油</text>
+    </view>
+  </view>
+
+  <view class="list-wrap">
+    <scroll-view scroll-y="true" class="scroll-view">
+      <view wx:if="{{isEmpty}}" class="list-empty">
+        <text>这里空空如也</text>
+        <view>+ 新建</view>
+      </view>
+     <block wx:else>
+      <view class="list-view"  wx:for="{{info}}" >
+          <view class="modle-mini">
+            <view>{{item.workProperty}}</view>
+          </view>
+        </view>
+     </block>
+    
+
+
+
+
+
+    </scroll-view>
+  </view>
+
+
+
+
+  <view class="write" bindtap="write">
+    新增
+  </view>
+
+</view>

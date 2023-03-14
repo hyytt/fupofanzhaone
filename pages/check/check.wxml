@@ -1,6 +1,6 @@
 <view class="body">
 
-  <view class="head">head</view>
+  <view class="head">育儿嫂详情</view>
 
   <view class="list-wrap">
     <scroll-view scroll-y="true" class="list">
@@ -38,8 +38,8 @@
       </view>
     </scroll-view>
   </view>
-  <view class="down">
+  <!-- <view class="down">
     down
-  </view>
+  </view> -->
 
 </view>

@@ -16,5 +16,11 @@ Page({
     })
   },
 
+  write() {
+    wx.navigateTo({
+      url: '/pages/edit/edit'
+    })
+  }
+
 })
 

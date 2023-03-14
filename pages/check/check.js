@@ -55,7 +55,7 @@ Page({
   },
   register() {
     wx.navigateTo({
-      url: '/pages/edit/edit'
+      url: '/pages/detail-info/detail-info'
     })
   }
 })
