@@ -1,12 +1,12 @@
 <view class="body">
 
   <view class="head">
-    <image src=""></image>
+    <image src='{{photo}}'></image>
     <view class="text-info">
-      <text class="text-infof">陈某某</text>
-      <text class="text-infof">43 岁</text>
-      <text class="text-infof">1978.8</text>
-      <text class="text-infof">四川江油</text>
+      <text class="text-infof">{{name}}</text>
+      <text class="text-infof">{{age}}</text>
+      <text class="text-infof">{{birth}}</text>
+      <text class="text-infof">{{nativePlace}}</text>
     </view>
   </view>
 
@@ -17,9 +17,9 @@
         <view>+ 新建</view>
       </view>
      <block wx:else>
-      <view class="list-view"  wx:for="{{info}}" >
+      <view class="list-view"  wx:for="{{list}}" >
           <view class="modle-mini">
-            <view>{{item.workProperty}}</view>
+            <view>{{item}}</view>
           </view>
         </view>
      </block>

@@ -4,58 +4,85 @@ const util = require('../../utils/util.js')
 Page({
   data: {
     persons: [{ 
-      name:'张惠琼',
+      name:'张xx',
       photo: '../img/yiren.jpeg',
       birth:'1966.12',
       age:'56',
       nativePlace:'四川峨眉',
-      workProperty:'2021年八月底到岗，十月家里男主人说从监控里看到她嘴对奶瓶吸 话称试温度，被男主人委婉说明后有摆正态度，后因十一月结算工资对男主压半年的假期补贴不满，拒绝做家务洗奶瓶，后来男主又帮忙调节好。春节初三后女主一直催她告知几号上班，她支支吾吾。后来二月28号才到岗，跟女主麻麻说男女主人的私事，挑拨离间'
+      workproperty: {
+        positivenum:0,
+        negativenum:0,
+        positive:['234','11233'] ,
+        negative:['1111','444']
+      }
     },
-    {name:'张仁芬',
-      photo:'../img/photo.png',
-      birth:'1966.12',
-      age:'56',
-      nativePlace:'四川宜宾',
-      workProperty:'2021年八月底到岗，十月家里男主人说从监控里看到她嘴对奶瓶吸 话称试温度，被男主人委婉说明后有摆正态度，后因十一月结算工资对男主压半年的假期补贴不满，拒绝做家务洗奶瓶，后来男主又帮忙调节好。春节初三后女主一直催她告知几号上班，她支支吾吾。后来二月28号才到岗，跟女主麻麻说男女主人的私事，挑拨离间'
-    }
-    ,
-    {name:'张仁芬',
-      photo:'../img/yiren.jpeg',
-      birth:'1966.12',
-      age:'56',
-      nativePlace:'四川宜宾',
-      workProperty:'2021年八月底到岗，十月家里男主人说从监控里看到她嘴对奶瓶吸 话称试温度，被男主人委婉说明后有摆正态度，后因十一月结算工资对男主压半年的假期补贴不满，拒绝做家务洗奶瓶，后来男主又帮忙调节好。春节初三后女主一直催她告知几号上班，她支支吾吾。后来二月28号才到岗，跟女主麻麻说男女主人的私事，挑拨离间'
-    }
-    ,
-    {name:'张仁芬',
-      photo:'../img/yiren.jpeg',
-      birth:'1966.12',
-      age:'56',
-      nativePlace:'四川宜宾',
-      workProperty:'2021年八月底到岗，十月家里男主人说从监控里看到她嘴对奶瓶吸 话称试温度，被男主人委婉说明后有摆正态度，后因十一月结算工资对男主压半年的假期补贴不满，拒绝做家务洗奶瓶，后来男主又帮忙调节好。春节初三后女主一直催她告知几号上班，她支支吾吾。后来二月28号才到岗，跟女主麻麻说男女主人的私事，挑拨离间'
-    }
-    ,
-    {name:'张仁芬',
-      photo:'../img/yiren.jpeg',
-      birth:'1966.12',
-      age:'56',
-      nativePlace:'四川宜宾',
-      workProperty:'2021年八月底到岗，十月家里男主人说从监控里看到她嘴对奶瓶吸 话称试温度，被男主人委婉说明后有摆正态度，后因十一月结算工资对男主压半年的假期补贴不满，拒绝做家务洗奶瓶，后来男主又帮忙调节好。春节初三后女主一直催她告知几号上班，她支支吾吾。后来二月28号才到岗，跟女主麻麻说男女主人的私事，挑拨离间'
-    }
-    ,
-    {name:'张仁芬',
-      photo:'../img/yiren.jpeg',
-      birth:'1966.12',
-      age:'56',
-      nativePlace:'四川宜宾',
-      workProperty:'2021年八月底到岗，十月家里男主人说从监控里看到她嘴对奶瓶吸 话称试温度，被男主人委婉说明后有摆正态度，后因十一月结算工资对男主压半年的假期补贴不满，拒绝做家务洗奶瓶，后来男主又帮忙调节好。春节初三后女主一直催她告知几号上班，她支支吾吾。后来二月28号才到岗，跟女主麻麻说男女主人的私事，挑拨离间'
-    }
-
+      { 
+        name:'林领',
+        photo: '../img/yiren.jpeg',
+        birth:'1988.12',
+        age:'56',
+        nativePlace:'四川jiagyou',
+        workproperty: {
+          positivenum:0,
+          negativenum:0,
+          positive:['234','11233'] ,
+          negative:['1111','444']
+        }}   ,
+      { 
+        name:'wwerr文',
+        photo: '../img/yiren.jpeg',
+        birth:'1988.12',
+        age:'56',
+        nativePlace:'四川jiagyou',
+        workproperty: {
+          positivenum:0,
+          negativenum:0,
+          positive:['234','11233'] ,
+          negative:['1111','444']
+        }} ,
+      { 
+        name:'hahahha',
+        photo: '../img/yiren.jpeg',
+        birth:'1988.12',
+        age:'56',
+        nativePlace:'四川jiagyou',
+        workproperty: {
+          positivenum:0,
+          negativenum:0,
+          positive:['234','11233'] ,
+          negative:['1111','444']
+        }}
+        ,
+      { 
+        name:'chenjj',
+        photo: '../img/yiren.jpeg',
+        birth:'1988.12',
+        age:'56',
+        nativePlace:'四川jiagyou',
+        workproperty: {
+          positivenum:0,
+          negativenum:0,
+          positive:['234','11233'] ,
+          negative:['1111','444']
+        }}
   ]
   },
-  register() {
+  registerhao(e) {
+    let index = e.currentTarget.dataset.index
+    console.log(index)
+    // let list = wx.getStorageSync('persons')||[]
+    this.data.persons[index].workproperty.negativenum=this.data.persons[index].workproperty.negativenum+1
+    wx.setStorageSync('personproperty', this.data.persons[index])
     wx.navigateTo({
       url: '/pages/detail-info/detail-info'
+    })
+  },
+
+  registerbad() {
+    let index = e.currentTarget.dataset.index
+    console.log(index)
+    wx.navigateTo({
+      url: '/pages/detail-info/detail-info?index='+index
     })
   }
 })

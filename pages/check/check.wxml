@@ -5,7 +5,7 @@
   <view class="list-wrap">
     <scroll-view scroll-y="true" class="list">
       <view class="list-scroll-view">
-        <view class="view-for-item" wx:for="{{persons}}">
+        <view class="view-for-item"  wx:for="{{persons}}">
           <view class="view-item">
             <view class="text-photo">
               <image class="text-photo" src="{{item.photo}}"></image>
@@ -20,13 +20,13 @@
             <view class="text-work-like">
               <text class="text-infof">2</text>
               <text class="text-infof">好评</text>
-              <image class="text-photo-like" src="../img/like.png" bindtap="register"></image>
+              <image class="text-photo-like"  data-index="{{index}}" src="../img/like.png" bindtap="registerhao"></image>
             </view>
          
             <view class="text-work-unlike">
               <text class="text-infof">3</text>
               <text class="text-infof">差评</text>
-              <image class="text-photo-like" src="../img/unlike.png" bindtap="register"></image>
+              <image class="text-photo-like" data-index="{{index}}" src="../img/unlike.png" bindtap="registerbad"></image>
             </view>
             
             </view>

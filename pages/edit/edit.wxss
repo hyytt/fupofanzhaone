@@ -1,51 +1,39 @@
-.body
-{
-  display: flex;
-  flex-direction: column;
- height: 100vh; 
-  /* vw  VH  是铺满屏幕的高度  */
+.container {
+  margin: 30rpx 30rpx;
 }
-.head
-{
-  display: flex;
- 
+/* 时间 */
+.date {
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #999999;
 }
-.head image
-{
-  width: 30%;
-}
-.text-info{
-  display: flex;
-  flex-direction: column;
-}
+/* 分割线 */
+.line {
+  width: 690rpx;
+  height: 1rpx;
+  background: #E9E9E9;
+  margin: 20rpx 0rpx;
 
- .list-wrap{
-   flex-wrap:wrap; 
-   flex-grow: 1; 
-   position: relative;
-} 
-.scroll-view {
+}
+/* 占位符通用样式 */
+.input-placeholder {
+  font-weight: 400;
+  color: #CCCCCC;
+}
+/* 内容字体大小 */
+.content-font-size {
+  font-size: 28rpx;
+}
+/* 保存按钮 */
+.save {
+  width: 510rpx;
+  height: 110rpx;
+  background: #F8D300;
+  border-radius: 20rpx;
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-.list-view {
-  display: flex;
-  flex-wrap: wrap;
-}
-.modle-mini
-{
- padding-top: 2%;
- padding-bottom: 1%;
- padding-left: 2%;
- padding-right: 2%; 
-}
-.write {
-  width: 108rpx;
-  height: 108rpx;
-  position: fixed;
-  right: 20rpx;
-  bottom: 150rpx;
+  left: 120rpx;
+  bottom: 115rpx;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 110rpx;
 }
