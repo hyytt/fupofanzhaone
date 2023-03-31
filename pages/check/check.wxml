@@ -18,13 +18,13 @@
             </view>
             <view class="text-work">
             <view class="text-work-like">
-              <text class="text-infof">2</text>
+              <text class="text-infof">{{item.workProperty.positivenum}}</text>
               <text class="text-infof">好评</text>
               <image class="text-photo-like"  data-index="{{index}}" src="../img/like.png" bindtap="registerhao"></image>
             </view>
          
             <view class="text-work-unlike">
-              <text class="text-infof">3</text>
+              <text class="text-infof">{{item.workProperty.negativenum}}</text>
               <text class="text-infof">差评</text>
               <image class="text-photo-like" data-index="{{index}}" src="../img/unlike.png" bindtap="registerbad"></image>
             </view>
